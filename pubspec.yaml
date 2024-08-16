@@ -1,0 +1,39 @@
+name: flutter_complete_guide
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  intl: ^0.17.0  # Update to a newer version if available
+  http: ^0.13.5
+  badges: ^3.0.2
+  cupertino_icons: ^1.0.3  # Update to a newer version if available
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pexels-ash-376464.jpg
+    - assets/images/pexels-jane-doan-1099680.jpg
+    - assets/images/pexels-maarten-van-den-heuvel-2284166.jpg
+    - assets/images/pexels-marvin-ozz-2474661.jpg
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+        - asset: assets/fonts/Lato-Bold.ttf
+          weight: 700
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton-Regular.ttf
